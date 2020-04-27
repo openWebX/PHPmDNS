@@ -1,0 +1,21 @@
+{
+  "name": "openwebx/phpmdns",
+  "description": "simple mdns implementation in php >=7.4",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jens Reinemuth",
+      "email": "jens@reinemuth.rocks"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mDNS\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "ext-sockets": "*"
+  }
+}
